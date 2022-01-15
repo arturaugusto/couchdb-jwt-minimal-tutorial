@@ -68,5 +68,5 @@ You have made some mistake. Verify all steps and try again.
 
 References:
 
-https://github.com/softapalvelin/couch_jwt_auth
-https://docs.couchdb.org/en/stable/api/server/authn.html#jwt-authentication
+https://github.com/softapalvelin/couch_jwt_auth  
+https://docs.couchdb.org/en/stable/api/server/authn.html#jwt-authentication  
