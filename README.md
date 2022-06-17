@@ -37,6 +37,8 @@ Now we need to generate a JSON Web Token to test.
 
 Go to https://jwt.io/, select HS256 algorithm. At VERIFY SIGNATURE type `c3VwZXJzZWNyZXQ=` on the editable field and check "secret base64 encoded"
 
+Important: At `PAYLOAD` set `sub` key to the username of token. eg. `{"sub": "João"}`
+
 Your encoded JWT will be shown on left. Copy it.
 
 Now test with curl:
